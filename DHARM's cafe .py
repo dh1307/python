@@ -11,7 +11,6 @@ menu  = {
     "Pizza": 120,
     "Pasta": 70,
     "Burger": 50,
-    "Garlic Bread ": 60,
     "Coke": 50
 }
 for item,price in menu.items() :
@@ -45,3 +44,4 @@ else:
     print("Thank You")
 
 print("Thanks For Your Order Wait For Just 2 Minutes ")    
+
