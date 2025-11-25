@@ -14,7 +14,7 @@ menu  = {
     "Coke": 50
 }
 for item,price in menu.items() :
-    print(f'{item:25} : {price:}RS')
+    print(f'{item:} : {price:}RS')
 
 order_total = 0
 
@@ -23,10 +23,10 @@ item_1 = input("\nEnter Name of Item You Want to Order :").title()
 
 if item_1 in menu:
     order_total += menu[item_1]
-    print(f"✅Your Order of {item_1} has been placed :")
+    print(f"Your Order of {item_1} has been placed :")
     print(f"Your Total Amount is : {order_total}RS ")
 else:
-    print(f"❌sorry, {item_1} is Not available in Our Menu")
+    print(f"sorry, {item_1} is Not available in Our Menu")
 
 # => item_2
 another_order = input("Do You Want Another item {Yes or No}").lower()
@@ -39,9 +39,10 @@ if another_order=="yes" :
        print(f" Your Total Amount is {order_total}RS ")
     
     else:
-       print(f"❌sorry, {item_2} is Not available in Our Menu")
+       print(f"sorry, {item_2} is Not available in Our Menu")
 else:
     print("Thank You")
 
 print("Thanks For Your Order Wait For Just 2 Minutes ")    
+
 
